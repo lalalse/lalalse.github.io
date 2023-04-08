@@ -1,14 +1,12 @@
 ---
 layout: post
 title: M2 터미널 세팅하기 - iTerm2 + oh-my-zsh
+subtitle: macOS의 기본 터미널보다 더 예쁘고 다양하게 기능할 수 있도록 iTerm 세팅
 date: 2023-04-09 02:06 +0900
 category: [macOS, setting]
 tags: [terminal, mac, item2, oh-my-zsh]
 ---
 
-> macOS에서 기본적으로 제공하는 터미널보다 더 예쁘게, 그리고 다양한 기능을 사용하기 위해   
- iTerm2 + oh-my-zsh 사용
-{: .prompt-tip }
 
 ## 기본 세팅
 
