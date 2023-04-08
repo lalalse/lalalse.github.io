@@ -198,5 +198,6 @@ jekyll-archives:
 jekyll_compose:
   default_front_matter:
     posts:
+      subtitle:
       category:
       tags:
