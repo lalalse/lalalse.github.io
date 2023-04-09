@@ -1,0 +1,33 @@
+---
+---
+
+/*
+  If the number of TAB files has changed, the following variable is required.
+  And it must be defined before `@import`.
+*/
+
+$tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
+
+@import "{{ site.theme }}";
+
+/* append your custom style below */
+h1 {
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 700;
+}
