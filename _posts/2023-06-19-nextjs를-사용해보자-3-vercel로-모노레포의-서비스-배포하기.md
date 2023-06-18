@@ -21,9 +21,6 @@ root directory를 `apps/{프로젝트 이름}`으로 설정한다.
 이 부분이 가장 중요하다 ! 필자는 크게 두 가지 command를 수정했다.
 
 - build command
-- install command
-
-- build command
   기본적인 next의 build를 적용하면 안되고, monorepo라는 점을 상기해야한다.
   ```
   cd ../.. && npx turbo run build --scope={프로젝트 이름} --include-dependencies --no-deps
@@ -32,6 +29,9 @@ root directory를 `apps/{프로젝트 이름}`으로 설정한다.
   가장 윗단인 전체 모노레포로 이동한 후 (`cd ../..`), 
   프로젝트에 대해 build해야 한다 (`npx turbo run build --scope={프로젝트 이름} --include-dependencies --no-deps`)
   이 때, `--include-dependencies --no-deps`를 함꼐 사용해 해당 스크립트에 필요한 의존성을 함께 실행해주어야 한다.
+
+- install command
+  현재 pnpm 패키지 매니저를 사용하고 있기에 `pnpm install` 로 override ! 
 
 ### 4. 끝
 이제 github에도 연동시켜놓았고 기본적인 CD는 진행된다 !
