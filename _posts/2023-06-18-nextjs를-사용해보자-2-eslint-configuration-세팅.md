@@ -2,7 +2,7 @@
 layout: post
 title: nextjs를 사용해보자 - 2. eslint configuration 세팅
 date: 2023-06-18 22:47 +0900
-subtitle: nextjs를 사용해보기 위한 탐험기. 1) 기본 모노레포 세팅 
+subtitle: nextjs를 사용해보기 위한 탐험기. 2) eslint configuration 세팅 및 자동 적용
 category: [Web, frontend]
 tags: [frontend, nextjs, vercel, turborepo, monorepo, eslint]
 ---
